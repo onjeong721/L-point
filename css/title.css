@@ -1,0 +1,114 @@
+#title {
+  height: calc(100%);
+  min-height: 800px;
+  position: relative;
+  padding-top: 200px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+#title::before{
+  content: "";
+  width: 52%;
+  display: block;
+  height: 280px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #33AFFB;
+  border-radius: 0 140px 0 0; 
+  animation-name: left;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-direction: reverse;
+}
+@keyframes left{
+  0%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100%{
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+}
+#title>a{
+  
+}
+#title>a::before{
+  content: "";
+  background-image: url(../img/phone.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-size: contain;
+  width: 244px;
+  height: 354px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: 1;
+  animation-name: slideup;
+  animation-duration: 0.5s;
+  animation-direction: reverse;
+  animation-timing-function: ease-in;
+  animation-delay: 0.7s;
+  transform: translateY(100%);
+  animation-fill-mode: forwards;
+}
+@keyframes slideup{
+  0%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(100%);
+  }
+}
+#title .wrap{
+  animation-name: titleT;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  animation-timing-function: ease-in;
+}
+@keyframes titleT{
+  0%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100%{
+    opacity: 0;
+    transform: translateY(80%);
+  }
+}
+#title .wrap h2 { 
+
+}
+#title .wrap p {
+
+}
+#title::after{
+  content: "";
+  width: 52%;
+  display: block;
+  height: 280px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #3356B1;
+  border-radius: 140px 0 0 0;
+  animation-name: right;
+  animation-duration: 1s;
+  opacity: 90%;
+  animation-timing-function: ease-in;
+  animation-direction: reverse;
+}
+@keyframes right{
+  0%{
+    opacity: 90%;
+    transform: translateX(0%)
+  }
+  100%{
+    opacity: 0;
+    transform: translateX(100%)
+  }
+}

@@ -1,0 +1,21 @@
+main{
+  
+}
+section:nth-child(odd){
+}
+section#point {
+  background-color: #FCC800;
+}
+section#point .wrap {
+  
+}
+section#point .wrap>*{
+  transform: translateX(50%);
+  margin-left: 70px;
+}
+section#point .wrap h2 {
+  
+}
+section#point .wrap p {
+  
+}

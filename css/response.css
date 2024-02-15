@@ -1,0 +1,8 @@
+@media screen and (max-width:789px){
+  header div.wrap ul.gnb{
+    display: none;
+  }
+  header div.wrap ul.lang{
+    display: none;
+  }
+}

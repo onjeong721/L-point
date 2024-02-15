@@ -1,0 +1,33 @@
+section#download {
+  background-color: #F2F2F2;
+}
+section#download .wrap{
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  grid-template-rows: auto auto;
+}
+section#download .wrap .{
+   display: flex;
+ }
+section#download .wrap h2 {
+  grid-row: 1 / 3;
+}
+section#download .wrap a {
+  color: #0AB5F6;
+  grid-row:3;
+}
+section#download .wrap .inner a::after{
+  content: "";
+  background-image: url(../img/arrow.png);
+  width: 16px;
+  height: 16px;
+  color: #0AB5F6;
+  background-repeat: no-repeat;
+  display: flex;
+}
+section#download .wrap img {
+  width: 180px;
+  height: 180px;
+  grid-column: 2;
+  grid-row: 1 / span 3;
+}
