@@ -1,5 +1,5 @@
 # L point 웹페이지 디자인클론코딩
-<img src="https://github.com/onjeong721/ACCUNIQ/assets/150096277/eae8cc1c-20be-4d02-ad2d-76d8fa5140bc" width="90%" height="auto"/>
+
 
 ## 프로젝트 소개
  * 사이트 주소: https://onjeong721.github.io/ACCUNIQ/
@@ -8,6 +8,7 @@
 
 ## 참여
   모란 이젠 IT아카데미 강사 외 수강생
+<br>
 
 ## 개발환경
 <div display=flex>
@@ -25,13 +26,6 @@
 ## 기간
 2023년 12월 中
 <br>
-
-## 개선사항
-
-## 페이지별 기능
-![setProfile](https://github.com/onjeong721/Bworld/assets/150096277/c3b595a4-b118-4d85-a953-4ad54e162ddd)
-![qksdmdgud](https://github.com/onjeong721/Bworld/assets/150096277/ed298d74-caf4-4f0d-8256-037c92a77448)
-## 오류개선
 
 ## 프로젝트 구조
 ```
@@ -194,4 +188,3 @@ pf2-lpoint
  ┃ ┗ README.md
 ```
 
-## 후기
