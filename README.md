@@ -1,9 +1,10 @@
 # L point 웹페이지 디자인클론코딩
-
+<img src="https://github.com/onjeong721/L-point/assets/150096277/789423da-73a2-491b-8d71-b6e52d972fea" width="80%" height="auto"/>
+<br>
 
 ## 프로젝트 소개
- * 사이트 주소: https://onjeong721.github.io/ACCUNIQ/
- * 원본 사이트: https://www.accuniq.com
+ * 사이트 주소: https://onjeong721.github.io/L-point/
+ * 원본 사이트: https://www.lpoint.com/
 <br>
 
 ## 참여
